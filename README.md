@@ -1,16 +1,21 @@
-# Ejemplo de aplicación con gRPC y Spring Boot
+# Example with gRPC and Spring Boot
 
+This is a simple example about gRPC with a Spring Boot application. 
 
-## ¿Cómo arrancarlo ?
+if you want more information:
+
+https://refactorizando.com/en/example-grpc-spring-boot/
+
+## How does it run?
 
 ```
 mvn spring-boot:run 
 
 ```
 
-## ¿Cómo probarlo?
+## Test and run:
 
-Para probarlo arrancar los dos servicios y ejecutar cualquiera de las siguientes urls
+After running both services, you can run the following URLs:
 
 http://localhost:8080/test_grpc?compact=true  
 http://localhost:8080/test_grpc
